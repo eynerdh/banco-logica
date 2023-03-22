@@ -16,5 +16,10 @@ pipeline{
                 echo "Esta en Build"
                 }
             }
+        stage("Final"){
+            steps{
+                echo "Termino"
+                }
+            }
     }
 }   
