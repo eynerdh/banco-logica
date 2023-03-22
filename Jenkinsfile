@@ -13,12 +13,12 @@ pipeline{
         }
         stage("Build"){
             steps{
-                echo "Esta en Build"
+                echo "Esta en Build en rama NewPipelineJenkis"
                 }
             }
         stage("Final"){
             steps{
-                echo "Stage Final"
+                echo "Stage Final NewPipelineJenkis"
                 }
             }
     }
